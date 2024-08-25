@@ -24,7 +24,7 @@ And don't ask questions! Just provide the information.
 export async function POST(req) {
   const openai = new OpenAI({
     baseURL: "https://openrouter.ai/api/v1",
-    apiKey: "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", // Use it here aswell
+    apiKey: process.env.NEXT_PUBLIC_OPENAI_API_KEY, // Use it here aswell
     defaultHeaders: {
       'Content-Type': 'application/json'
     }
