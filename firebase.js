@@ -6,11 +6,11 @@ import { GoogleAuthProvider } from "firebase/auth";
 // Your web app's Firebase configuration
 const firebaseConfig = {
     apiKey: NEXT_PUBLIC_FIREBASE_API_KEY,
-    authDomain: NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
-    projectId: NEXT_PUBLIC_FIREBASE_PROJECT_ID,
-    storageBucket: NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
-    messagingSenderId: NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
-    appId: NEXT_PUBLIC_FIREBASE_APP_ID
+    authDomain: "studyfy-ai-f8b1e.firebaseapp.com",
+    projectId: "studyfy-ai-f8b1e",
+    storageBucket: "studyfy-ai-f8b1e.appspot.com",
+    messagingSenderId: "1059489825114",
+    appId: "1:1059489825114:web:6b5b48316f3497cf827363"
 };
 
 // Initialize Firebase
